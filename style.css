@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background-image: url(https://wallpaperaccess.com/full/2290971.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.main-container {
+  height: 90vh;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+#main-heading {
+  position: fixed;
+  top: 10px;
+
+  font-size: 30px;
+  color: white;
+  padding-left: 20px;
+  font-family: "Roboto", serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px;
+  min-height: 500px;
+  min-width: 400px;
+}
+
+.container #temperature {
+  font-size: 150px;
+  padding: 5rem;
+}
+
+.container #area-heading {
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+.container .weather-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+
+.container .weather-info h2 {
+  font-size: 20px;
+  padding: 10px;
+  color: black;
+}
+
+.container #weather-heading {
+  font-weight: 100;
+  padding-bottom: 20px;
+}
+
+.input-container {
+  /* background-color: red; */
+  display: flex;
+  border: none;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.input-container input {
+  height: 2rem;
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+}
+
+.input-container button {
+  background-color: orange;
+  border: none;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.date-container {
+  min-width: 100%;
+  display: flex;
+  justify-content: right;
+}
+
+.date-container h4 {
+  color: white;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+#message {
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: 300;
+}
